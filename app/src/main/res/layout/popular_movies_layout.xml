@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="340dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:layout_height="220dp"
+    app:cardCornerRadius="20dp"
+    android:elevation="5dp">
+
+    <ImageView
+        android:id="@+id/ivMovieBanner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/movieappui"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/tvMovieName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Movie Name"
+        android:layout_gravity="start|bottom"
+        android:layout_margin="20dp"
+        android:textSize="25sp"
+        android:textColor="@color/white"/>
+
+
+
+</com.google.android.material.card.MaterialCardView>

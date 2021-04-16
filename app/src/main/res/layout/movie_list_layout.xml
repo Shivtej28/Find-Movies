@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   <com.google.android.material.card.MaterialCardView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       app:cardBackgroundColor="@color/white"
+       app:cardCornerRadius="20dp">
+
+       <ImageView
+           android:id="@+id/ivMovieBanner"
+           android:layout_width="180dp"
+           android:layout_height="250dp"
+           android:src="@drawable/movieappui"
+           android:scaleType="fitXY"/>
+
+
+   </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/tvMovieName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Movie Name"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:textSize="14sp"
+        android:textStyle="italic|bold"
+        android:textColor="@color/textColor"
+        />
+
+</LinearLayout>
